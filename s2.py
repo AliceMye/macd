@@ -9,3 +9,5 @@ def cal_macd(close, long, short, mid):
         macd = (diff-dea)*2
         return (diff,dea,macd)
 
+def my_test():
+    print(vars())
